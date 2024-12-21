@@ -1,7 +1,7 @@
 # Django settings
 SECRET_KEY='your_actual_secret_key'
 DEBUG=True
-ALLOWED_HOSTS='yourdomain.com,www.yourdomain.com'
+ALLOWED_HOSTS='*'
 
 # Database settings
 DB_NAME='fresh_django_project'
