@@ -61,16 +61,16 @@ TEMPLATES = [
 WSGI_APPLICATION = 'pythonProject3.wsgi.application'
 
 # Database
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": os.getenv('DB_NAME', 'fresh_django_project'),
-        "USER": os.getenv('DB_USER', 'postgres'),
-        "PASSWORD": os.getenv('DB_PASSWORD', '1234'),
-        "HOST": os.getenv('DB_HOST', '127.0.0.1'),
-        "PORT": os.getenv('DB_PORT', '5432'),
-    }
-}
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.postgresql",
+#         "NAME": os.getenv('DB_NAME', 'fresh_django_project'),
+#         "USER": os.getenv('DB_USER', 'postgres'),
+#         "PASSWORD": os.getenv('DB_PASSWORD', '1234'),
+#         "HOST": os.getenv('DB_HOST', '127.0.0.1'),
+#         "PORT": os.getenv('DB_PORT', '5432'),
+#     }
+# }
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
